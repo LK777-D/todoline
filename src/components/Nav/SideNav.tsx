@@ -2,7 +2,7 @@ import star from "@/assets/phstar.svg";
 import Image from "next/image";
 import Link from "next/link";
 import dashboard from "@/assets/dashboard.svg";
-import sun from "@/assets/Vector.svg";
+import sunIcon from "@/assets/Vector.svg";
 const SideNav = () => {
   return (
     <aside className="font-inter sticky top-0 h-[100vh]  hidden z-50  lg:block lg:w-[290px] border-r border-r-[#C7CAD0] ">
@@ -11,7 +11,7 @@ const SideNav = () => {
           href={"/"}
           className="flex gap-1 rounded-[4px] text-[14px] transition duration-200 hover:bg-[#E7E8EA] p-3"
         >
-          <Image src={sun} alt="sun" />
+          <Image src={sunIcon} alt="sun" />
           My Day
         </Link>
         <Link

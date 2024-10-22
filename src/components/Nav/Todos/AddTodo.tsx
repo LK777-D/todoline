@@ -62,7 +62,12 @@ const AddTodo = () => {
     >
       <div className="flex flex-col  mx-auto p-3 rounded-xl lg:max-w-[600px]">
         <button
-          onClick={() => setAddTodo((prev) => !prev)}
+          onClick={() => {
+            setAddTodo((prev) => !prev);
+            if (!isSignedIn) {
+              alert("Please Log In To Add a Task");
+            }
+          }}
           className="bg-white py-[10px] shadow-lg px-[10px] flex items-center gap-1 text-left rounded-xl"
         >
           <span className="text text-2xl">+</span>
