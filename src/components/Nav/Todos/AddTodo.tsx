@@ -54,7 +54,7 @@ const AddTodo = () => {
       console.error("Error adding todo:", error.message);
     },
   });
-
+  // c
   return (
     <main
       className=" p-1 md:p-0 font-inter"
