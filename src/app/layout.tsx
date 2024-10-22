@@ -33,7 +33,9 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider
-      publishableKey="pk_test_Y2FwaXRhbC1rb2RpYWstNDguY2xlcmsuYWNjb3VudHMuZGV2JA"
+      publishableKey={
+        "pk_test_Y2FwaXRhbC1rb2RpYWstNDguY2xlcmsuYWNjb3VudHMuZGV2JA"
+      }
       signInFallbackRedirectUrl="/"
       signUpFallbackRedirectUrl="/"
     >
