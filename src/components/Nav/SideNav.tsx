@@ -2,7 +2,7 @@ import star from "@/assets/phstar.svg";
 import Image from "next/image";
 import Link from "next/link";
 import dashboard from "@/assets/dashboard.svg";
-import sunIcon from "@/assets/Vector.svg";
+import sunIcon from "@/assets/vector.svg";
 const SideNav = () => {
   return (
     <aside className="font-inter sticky top-0 h-[100vh]  hidden z-50  lg:block lg:w-[290px] border-r border-r-[#C7CAD0] ">
